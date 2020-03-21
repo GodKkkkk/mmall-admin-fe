@@ -19,7 +19,7 @@ var config = {
 	output: {
 		path: __dirname + '/dist',
 		//publicPath: WEBPACK_ENV === 'online' ? '//s.tiancaikia.xyz/mmall_admin_fe/dist/' : '/dist/',
-		publicPath: 'dev' === WEBPACK_ENV ? '/dist/' : '//s.tiancaikai.xyz/mmall_admin_fe/dist/',
+		publicPath: 'dev' === WEBPACK_ENV ? '/dist/' : '//s.tiancaikai.xyz/admin-fe/dist/',
 		filename: 'js/[name].js'
 	},
 	resolve: {
