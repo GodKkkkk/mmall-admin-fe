@@ -16,7 +16,7 @@
   "author": "Ks",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "font-awesome": "^4.7.0",
     "hogan.js": "^3.0.2",
     "rc-pagination": "^2.0.1",
