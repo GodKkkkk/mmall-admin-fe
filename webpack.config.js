@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var fs = require('fs');
 
 // 环境变量, dev, (test), online
 var WEBPACK_ENV = process.env.WEBPACK_ENV || 'dev';
@@ -30,6 +31,8 @@ var config = {
 			component: path.join(__dirname, '/src/component'),
 			service: path.join(__dirname, '/src/service'),
 			page: path.join(__dirname, '/src/page'),
+			'react': fs.realpathSync('node_modules/react'),
+			'react-dom': fs.realpathSync('node_modules/react-dom')
 		}
 	},
 	module: {
